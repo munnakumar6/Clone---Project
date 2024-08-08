@@ -1,0 +1,240 @@
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+.navbar-nav{
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav-link:hover{
+    color: #00ffac !important;
+}
+.navbar-light .navbar-toggler{
+    border: none !important;
+    outline: none !important;
+}
+.navbar-toggler-icon{
+        background-color: #fff !important;
+}
+@media screen  and (max-width:576px){
+    .nav-item a{
+        border-bottom: 1px solid grey;
+        background-color: #ff9d0c;
+    }
+    
+}
+.header-section{
+    background-image: url(../image/hero-bg\ \(1\).jpg);
+}
+h1{
+    font-size: 5vw;
+    font-weight: 800 !important;
+    
+}
+.list-inline{
+    color:#00ffac ;
+}
+button{
+    background-color: #ff9d0c;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    padding: 18px 17px;
+
+}
+/* modals css */
+span.title{
+    font-size: 22px;
+    font-weight: 700;
+}
+span.sub-title{
+    font-weight: 500;
+    font-size: 15px;
+}
+.modal-tital{
+    font-size: 30px;
+    font-weight: 700;
+}
+.color-red{
+    color: red;
+}
+/* form css */
+input{
+    font-size: 25px !important;
+}
+.modal-footer button{
+    background-color: #ff9d0c;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    padding: 8px 17 px;
+
+}
+/* image */
+.inner-container img{
+    border-color: #00ffac;
+}
+.inner-container1{
+    margin-top: -70px;
+}
+.inner-container4{
+    margin-top: -70px;
+}
+.item-single img{
+    border:3px solid #00ffac;
+    border-radius: 50%;
+}
+
+/* details section start */
+.detail-heading{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: century;
+}
+.underline{
+    text-decoration: underline;
+}
+.detail-text{
+    font-size: 27px;
+    font-weight: 500;
+    color: gray;
+}
+h4{
+    font-size: 35px;
+}
+.textheading p{
+    font-size: 27px;
+}
+.timer{
+    margin-top: 30px;
+    padding: 20px 30px;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
+}
+.timer-section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 60px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* abouts-section start */
+.abouts-section{
+    background-color: #f1f1f1;
+}
+.about-heading{
+    font-size: 70px;
+    font-weight: bold;
+}
+.abtext{
+    font-size: 30px;
+}
+.about-text{
+    font-size: 23px;
+}
+.about-text2{
+    font-size: 30px;
+    font-weight: 500;
+}
+ul li{
+    list-style: none;
+    font-size:23px;
+}
+/* consulting section start */
+.consult{
+    background-image: url(../image/consulting-bg.jpg);
+}
+.consult-heading{
+    font-size: 50px;
+    font-weight: bold;
+}
+/* speaker section start */
+.speaker-section{background-color: #f1f1f1;}
+.speaker-heading{
+    font-size: 75px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.speaker-image img{
+    border:5px solid #FF9D0B;
+    border-radius: 100%;
+}
+.speaker-image{
+    text-align: center;
+    margin: auto;
+    display: block;
+
+}
+.speaker-image h6{
+    background-color: #FF9D0B;
+    font-size: 30px;
+    border-radius: 100px;
+    padding: 10px 40px ;
+    display: inline-block;
+    position: relative;
+    top: -40px;
+}
+.speaker-image p{
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: -35px;
+    color: #7D7D7D;
+}
+/* schedule-section start */
+.schedule-heading{
+    font-size: 50px;
+    font-weight: bold;
+}
+.single-container{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
+    padding: 20px;
+}
+/* previous section start */
+.previous{
+    background-image: url(../image/testimonials-bg.jpg);
+}
+.star img{
+    border: none;
+}
+
+/* host meeting */
+.host-meeting{
+    background-color:#f1f1f1;
+    margin-top: 50px;
+}
+.host img{
+    border: 3px solid #FF9D0B;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+}
+/* footer section start */
+footer{
+    background: #292929;
+    padding-top: 50px;
+    padding-bottom: 45px;
+    border-top: 5px solid #FF9D0B;
+}
+/* back to top button */
+.backtotopbutton{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    height: 40px;
+    width: 40px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border: 2px solid #00ffac;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    opacity: 0.9;
+    transition: opacity 200ms linear;
+}
